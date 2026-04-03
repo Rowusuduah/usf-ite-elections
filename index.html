@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>USF-ITE 2026–2027 Executive Board Elections – Candidate Statements</title>
+<meta name="description" content="Review candidate statements for the 2026–2027 USF Institute of Transportation Engineers Executive Board Elections."/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet"/>
+<style>
+/* ─── TOKENS ─────────────────────────────────────────────────── */
+:root {
+  --green:      #00843D;
+  --green-dark: #005C28;
+  --green-mid:  #1E3A28;
+  --green-dim:  #006B30;
+  --gold:       #CFC493;
+  --gold-dark:  #A89B5E;
+  --dark:       #0D1F14;
+  --light:      #F4F9F6;
+  --border:     #C8DCCE;
+  --card:       #FFFFFF;
+  --muted:      #5A7A65;
+  --radius:     14px;
+  --shadow:     0 2px 16px rgba(0,0,0,0.07);
+  --shadow-lg:  0 6px 32px rgba(0,0,0,0.11);
+}
+
+/* ─── RESET ──────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--light);
+  color: var(--dark);
+  line-height: 1.65;
+  min-height: 100vh;
+}
+a { color: inherit; text-decoration: none; }
+
+/* ─── NAV ────────────────────────────────────────────────────── */
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(13,31,20,0.97);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(207,196,147,0.18);
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 54px;
+}
+.nav-brand {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.nav-link {
+  font-size: 12.5px;
+  font-weight: 500;
+  color: rgba(255,255,255,0.55);
+  padding: 6px 10px;
+  border-radius: 6px;
+  transition: color 0.18s, background 0.18s;
+  letter-spacing: 0.02em;
+}
+.nav-link:hover { color: #fff; background: rgba(255,255,255,0.07); }
+.nav-ballot-btn {
+  background: var(--green);
+  color: #fff !important;
+  border-radius: 8px;
+  padding: 7px 16px !important;
+  font-weight: 600 !important;
+  font-size: 12.5px;
+  letter-spacing: 0.03em;
+  transition: background 0.18s, transform 0.12s !important;
+}
+.nav-ballot-btn:hover { background: var(--green-dim) !important; transform: translateY(-1px); }
+
+/* ─── HERO ────────────────────────────────────────────────────── */
+.hero {
+  background: var(--dark);
+  position: relative;
+  overflow: hidden;
+  padding: 72px 40px 64px;
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  top: -80px; right: -60px;
+  width: 420px; height: 420px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(0,132,61,0.22) 0%, transparent 68%);
+  pointer-events: none;
+}
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: -60px; left: -40px;
+  width: 320px; height: 320px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(207,196,147,0.09) 0%, transparent 70%);
+  pointer-events: none;
+}
+.hero-inner {
+  max-width: 860px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: rgba(207,196,147,0.12);
+  border: 1px solid rgba(207,196,147,0.28);
+  border-radius: 30px;
+  padding: 5px 14px;
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 26px;
+}
+.hero-badge-dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--gold);
+  animation: pulse 2.2s ease-in-out infinite;
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+.hero-org {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(255,255,255,0.5);
+  letter-spacing: 0.04em;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+.hero-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: clamp(28px, 4.5vw, 46px);
+  line-height: 1.15;
+  color: #fff;
+  margin-bottom: 6px;
+}
+.hero-title em {
+  font-style: italic;
+  color: var(--gold);
+}
+.hero-subtitle {
+  font-family: 'DM Serif Display', serif;
+  font-size: clamp(18px, 2.8vw, 26px);
+  color: rgba(255,255,255,0.65);
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.hero-tagline {
+  font-size: 14.5px;
+  color: rgba(255,255,255,0.45);
+  font-weight: 300;
+  margin-bottom: 36px;
+  max-width: 480px;
+}
+.hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--green);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 13px 28px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14.5px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.2s, transform 0.12s, box-shadow 0.2s;
+  box-shadow: 0 4px 20px rgba(0,132,61,0.35);
+}
+.btn-primary:hover {
+  background: var(--green-dim);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 28px rgba(0,132,61,0.45);
+}
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: transparent;
+  color: rgba(255,255,255,0.65);
+  border: 1.5px solid rgba(255,255,255,0.2);
+  border-radius: 10px;
+  padding: 12px 22px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.2s, border-color 0.2s, background 0.2s;
+}
+.btn-secondary:hover {
+  color: #fff;
+  border-color: rgba(255,255,255,0.45);
+  background: rgba(255,255,255,0.06);
+}
+
+/* ─── INTRO STRIP ─────────────────────────────────────────────── */
+.intro-strip {
+  background: #fff;
+  border-bottom: 1px solid var(--border);
+  padding: 22px 40px;
+}
+.intro-inner {
+  max-width: 860px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+.intro-icon {
+  width: 36px; height: 36px;
+  border-radius: 8px;
+  background: #EDF7F2;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+  font-size: 17px;
+  margin-top: 1px;
+}
+.intro-text {
+  font-size: 13.5px;
+  color: var(--muted);
+  line-height: 1.7;
+}
+.intro-text strong { color: var(--dark); font-weight: 600; }
+
+/* ─── SECTION LAYOUT ─────────────────────────────────────────── */
+.page-body {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 52px 24px 80px;
+}
+
+/* ─── OFFICE SECTION ─────────────────────────────────────────── */
+.office-section { margin-bottom: 64px; }
+.office-section:last-child { margin-bottom: 0; }
+
+.office-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 28px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid var(--border);
+}
+.office-number {
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  background: var(--green);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+  letter-spacing: 0.02em;
+}
+.office-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: clamp(20px, 3vw, 26px);
+  color: var(--dark);
+  line-height: 1;
+}
+.office-count {
+  margin-left: auto;
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  background: var(--light);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 4px 12px;
+  white-space: nowrap;
+}
+
+/* ─── CANDIDATE CARDS ─────────────────────────────────────────── */
+.candidates-grid {
+  display: grid;
+  gap: 22px;
+}
+.candidates-grid.multi { grid-template-columns: 1fr; }
+
+.candidate-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  transition: box-shadow 0.22s, transform 0.22s, border-color 0.22s;
+}
+.candidate-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+  border-color: #A8C8B4;
+}
+
+.card-header {
+  padding: 24px 28px 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  border-bottom: 1px solid #F0F7F3;
+}
+.candidate-avatar {
+  width: 48px; height: 48px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--green) 0%, var(--green-mid) 100%);
+  color: #fff;
+  font-family: 'DM Serif Display', serif;
+  font-size: 18px;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+  letter-spacing: 0.02em;
+}
+.card-header-text { flex: 1; min-width: 0; }
+.candidate-name {
+  font-family: 'DM Serif Display', serif;
+  font-size: 19px;
+  color: var(--dark);
+  line-height: 1.2;
+  margin-bottom: 3px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  flex-wrap: wrap;
+}
+.video-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(207,196,147,0.15);
+  border: 1px solid rgba(207,196,147,0.35);
+  border-radius: 20px;
+  padding: 2px 9px;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gold-dark);
+  font-family: 'DM Sans', sans-serif;
+}
+.candidate-office {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--green);
+}
+.candidate-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+
+.card-body {
+  padding: 22px 28px 24px;
+}
+.statement-label {
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.statement-label::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+.statement-text {
+  font-size: 14px;
+  line-height: 1.78;
+  color: #2A3E32;
+  white-space: pre-wrap;
+}
+.statement-text p { margin-bottom: 12px; }
+.statement-text p:last-child { margin-bottom: 0; }
+
+/* No-statement card */
+.no-statement {
+  padding: 22px 28px 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  color: var(--muted);
+  font-style: italic;
+}
+
+/* Video button in card */
+.card-video-bar {
+  padding: 0 28px 24px;
+}
+.btn-video {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  background: var(--dark);
+  color: #fff;
+  border: none;
+  border-radius: 9px;
+  padding: 11px 20px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 13.5px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.18s, transform 0.12s;
+}
+.btn-video:hover {
+  background: var(--green-mid);
+  transform: translateY(-1px);
+}
+.btn-video svg { flex-shrink: 0; }
+
+/* Contact row */
+.contact-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 4px;
+  padding: 16px 28px;
+  border-top: 1px solid #F0F7F3;
+}
+.contact-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: var(--light);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 4px 12px;
+  font-size: 12px;
+  color: var(--muted);
+  font-weight: 500;
+  transition: border-color 0.15s, color 0.15s;
+  text-decoration: none;
+}
+.contact-chip:hover { border-color: var(--green); color: var(--green); }
+
+/* ─── DIVIDER ─────────────────────────────────────────────────── */
+.section-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--border), transparent);
+  margin: 0;
+}
+
+/* ─── VOTING SECTION ─────────────────────────────────────────── */
+.voting-section {
+  background: linear-gradient(135deg, var(--green-mid) 0%, var(--dark) 100%);
+  border-radius: 18px;
+  padding: 52px 48px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  margin-top: 64px;
+}
+.voting-section::before {
+  content: '';
+  position: absolute;
+  top: -60px; right: -60px;
+  width: 280px; height: 280px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(0,132,61,0.3) 0%, transparent 70%);
+  pointer-events: none;
+}
+.voting-section::after {
+  content: '';
+  position: absolute;
+  bottom: -50px; left: -40px;
+  width: 220px; height: 220px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(207,196,147,0.1) 0%, transparent 70%);
+  pointer-events: none;
+}
+.voting-inner { position: relative; z-index: 1; }
+.voting-eyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 14px;
+}
+.voting-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: clamp(24px, 4vw, 36px);
+  color: #fff;
+  margin-bottom: 14px;
+  line-height: 1.2;
+}
+.voting-meta {
+  font-size: 14px;
+  color: rgba(255,255,255,0.55);
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+.voting-window {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(207,196,147,0.12);
+  border: 1px solid rgba(207,196,147,0.25);
+  border-radius: 30px;
+  padding: 7px 18px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--gold);
+  margin-bottom: 34px;
+  letter-spacing: 0.02em;
+}
+.voting-actions { display: flex; justify-content: center; gap: 14px; flex-wrap: wrap; }
+
+/* ─── FOOTER ─────────────────────────────────────────────────── */
+footer {
+  background: var(--dark);
+  padding: 32px 40px;
+  text-align: center;
+  border-top: 1px solid rgba(255,255,255,0.06);
+}
+.footer-inner { max-width: 860px; margin: 0 auto; }
+.footer-logo {
+  font-family: 'DM Serif Display', serif;
+  font-size: 17px;
+  color: #fff;
+  margin-bottom: 6px;
+}
+.footer-sub {
+  font-size: 12px;
+  color: rgba(255,255,255,0.35);
+  line-height: 1.7;
+}
+.footer-divider {
+  height: 1px;
+  background: rgba(255,255,255,0.07);
+  margin: 18px 0;
+}
+.footer-bottom {
+  font-size: 11.5px;
+  color: rgba(255,255,255,0.22);
+  letter-spacing: 0.04em;
+}
+
+/* ─── RESPONSIVE ─────────────────────────────────────────────── */
+@media (max-width: 700px) {
+  nav { padding: 0 18px; }
+  .nav-links .nav-link:not(.nav-ballot-btn) { display: none; }
+  .nav-brand { font-size: 11px; letter-spacing: 0.1em; }
+
+  .hero { padding: 48px 20px 44px; }
+  .hero-title { font-size: 28px; }
+  .hero-subtitle { font-size: 18px; }
+
+  .intro-strip { padding: 18px 20px; }
+
+  .page-body { padding: 36px 16px 60px; }
+
+  .card-header { padding: 18px 20px 16px; gap: 12px; }
+  .candidate-avatar { width: 42px; height: 42px; font-size: 16px; }
+  .candidate-name { font-size: 17px; }
+  .card-body { padding: 18px 20px 20px; }
+  .card-video-bar { padding: 0 20px 20px; }
+  .contact-row { padding: 14px 20px; }
+
+  .voting-section { padding: 38px 24px; border-radius: 14px; }
+  .office-header { gap: 10px; }
+  .office-count { display: none; }
+}
+@media (max-width: 480px) {
+  .hero-actions { flex-direction: column; align-items: flex-start; }
+  .btn-primary, .btn-secondary { width: 100%; justify-content: center; }
+}
+</style>
+</head>
+<body>
+
+<!-- ─── NAV ───────────────────────────────────────────────────── -->
+<nav>
+  <span class="nav-brand">USF-ITE · Elections 2026–27</span>
+  <div class="nav-links">
+    <a href="#candidates" class="nav-link">Candidates</a>
+    <a href="#vote" class="nav-link">Vote</a>
+    <a href="https://bullsconnect.usf.edu" target="_blank" rel="noopener" class="nav-link nav-ballot-btn">
+      Go to Ballot ↗
+    </a>
+  </div>
+</nav>
+
+<!-- ─── HERO ──────────────────────────────────────────────────── -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-badge">
+      <span class="hero-badge-dot"></span>
+      Elections Now Open
+    </div>
+    <p class="hero-org">USF Institute of Transportation Engineers &nbsp;·&nbsp; University of South Florida Student Chapter</p>
+    <h1 class="hero-title">2026–2027 Executive Board <em>Elections</em></h1>
+    <p class="hero-subtitle">Candidate Statements</p>
+    <p class="hero-tagline">Review candidate statements before casting your vote.</p>
+    <div class="hero-actions">
+      <a href="https://bullsconnect.usf.edu" target="_blank" rel="noopener" class="btn-primary">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+        Go to Ballot
+      </a>
+      <a href="#candidates" class="btn-secondary">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+        View Candidates
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ─── INTRO STRIP ────────────────────────────────────────────── -->
+<div class="intro-strip">
+  <div class="intro-inner">
+    <div class="intro-icon">📋</div>
+    <p class="intro-text">
+      To help members learn more about the nominees before voting, candidate statements and Jeremy Fullwood's optional video introduction are provided below. <strong>Each statement is displayed exactly as submitted.</strong>
+    </p>
+  </div>
+</div>
+
+<!-- ─── CANDIDATES ─────────────────────────────────────────────── -->
+<main class="page-body" id="candidates">
+
+  <!-- PRESIDENT -->
+  <div class="office-section">
+    <div class="office-header">
+      <div class="office-number">01</div>
+      <h2 class="office-title">President</h2>
+      <span class="office-count">2 Candidates</span>
+    </div>
+
+    <div class="candidates-grid multi">
+
+      <!-- Zidan -->
+      <div class="candidate-card">
+        <div class="card-header">
+          <div class="candidate-avatar">ZS</div>
+          <div class="card-header-text">
+            <div class="candidate-name">Md. Zidan Shahriar</div>
+            <div class="candidate-office">Running for President</div>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="statement-label">Candidate Statement</div>
+          <div class="statement-text">Hello everyone,
+
+I am honored to present myself as a candidate for President of the USF ITE Student Chapter.
+
+I am currently a Master's student in Civil and Environmental Engineering at the University of South Florida, with a deep passion for transportation engineering. My academic journey has led me to cutting-edge research in electric vehicle braking dynamics and traffic flow modeling — work that reflects my commitment to advancing the future of transportation.
+
+Beyond research, my internship at Stantec gave me hands-on exposure to real-world transportation planning and traffic engineering, where I sharpened my analytical skills, collaborated with seasoned professionals, and gained a broader appreciation for how engineering shapes the communities we live in.
+
+These experiences have not only prepared me technically — they have instilled in me a genuine desire to give back to the student community that has supported my own growth.
+
+As President, I will focus on three core commitments:
+
+Expanding professional networking opportunities with industry leaders and alumni
+
+Fostering a culture of knowledge-sharing through workshops, seminars, and peer collaboration
+
+Increasing student engagement so that every member feels connected, inspired, and career-ready
+
+I believe the USF ITE Student Chapter has tremendous potential, and I am ready to bring the energy, vision, and dedication needed to help it thrive.
+
+It would be a privilege to serve and represent this chapter.
+
+Thank you.
+
+Md. Zidan Shahriar</div>
+        </div>
+      </div>
+
+      <!-- Jeremy -->
+      <div class="candidate-card">
+        <div class="card-header">
+          <div class="candidate-avatar">JF</div>
+          <div class="card-header-text">
+            <div class="candidate-name">
+              Jeremy Fullwood
+              <span class="video-badge">
+                <svg width="9" height="9" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                Video
+              </span>
+            </div>
+            <div class="candidate-office">Running for President</div>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="statement-label">Candidate Statement</div>
+          <div class="statement-text">Good afternoon everyone,
+
+My name is Jeremy Fullwood, and I'm running to be your next ITE President.
+
+Over the past couple of months, I've had the privilege of serving as Vice President, and that role has given me more than just a title, it's given me real experience in what it takes to move this organization forward.
+
+I didn't just show up, I took initiative. I established connections with the Florida Puerto Rico District board, which will open more representation among other organizations. I made it a priority to attend out-of-town meetings, not just to represent us, but to bring back ideas, opportunities, and inspiration.
+
+I also created our Instagram page to improve visibility and engagement, because I believe what we do deserves to be seen and recognized. But more importantly, I've worked to build accountability within our team, making sure that when we commit to something, we follow through.
+
+Now, as President, I want to take that foundation and elevate it. My vision is simple: direction, connection, and growth.
+
+Direction: By ensuring our goals are clear and our execution is consistent.
+
+Connection: By strengthening our relationships not only within ITE, but across other engineering organizations.
+
+Growth: By creating more opportunities for our members to learn, network, and succeed.
+
+I truly believe ITE has the potential to become one of the most impactful engineering organizations on campus, but it takes leadership that is proactive, organized, and committed.
+
+I've already been doing the work. Now I'm ready to lead.
+
+Thank you.</div>
+        </div>
+        <div class="card-video-bar">
+          <a href="https://drive.google.com/file/d/1igSqrbL8baV2OJYwHIPHdlIaOxy8Oyl8/view?usp=drivesdk" target="_blank" rel="noopener" class="btn-video">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8" fill="currentColor" stroke="none"/></svg>
+            Watch Jeremy Fullwood's Video Introduction
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- VICE PRESIDENT -->
+  <div class="office-section">
+    <div class="office-header">
+      <div class="office-number">02</div>
+      <h2 class="office-title">Vice President</h2>
+      <span class="office-count">3 Candidates</span>
+    </div>
+
+    <div class="candidates-grid multi">
+
+      <!-- Marvin -->
+      <div class="candidate-card">
+        <div class="card-header">
+          <div class="candidate-avatar">MO</div>
+          <div class="card-header-text">
+            <div class="candidate-name">Marvin Osei-Kuffour</div>
+            <div class="candidate-office">Running for Vice President</div>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="statement-label">Candidate Statement</div>
+          <div class="statement-text">Hello everyone,
+
+My name is Marvin Osei-Kuffour, and I am a PhD student in Civil Engineering with a focus on transportation engineering at the University of South Florida.
+
+I am a strong candidate for Vice President because I bring leadership and initiative.
+
+If elected, I will work hard to increase member engagement, create more hands-on and research opportunities, strengthen connections with industry and academia, and build a strong team to compete and win the ITE Traffic Bowl in 2027.
+
+Thank you for your consideration.</div>
+        </div>
+      </div>
+
+      <!-- Kwabena -->
+      <div class="candidate-card">
+        <div class="card-header">
+          <div class="candidate-avatar">KA</div>
+          <div class="card-header-text">
+            <div class="candidate-name">Kwabena Adjei</div>
+            <div class="candidate-office">Running for Vice President</div>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="statement-label">Candidate Statement</div>
+          <div class="statement-text">Candidate Statement — Vice President, USF ITE Student Chapter
+
+My name is Kwabena, and I am a first-year Master's student in Transportation
+Engineering at the University of South Florida. My academic focus encompasses traffic
+simulation, traffic flow theory, and transportation systems analysis, areas in which I have
+developed both technical competency and a genuine commitment to advancing the
+profession.
+
+I believe I am a strong candidate for Vice President because I bring hands-on experience
+with the tools and challenges that define modern transportation engineering. Through my
+graduate studies, I have worked extensively with industry-standard simulation software,
+engaged with applied traffic flow analysis, and contributed to projects with direct
+relevance to Florida's transportation agencies. These experiences have given me a
+grounded understanding of what transportation students are preparing for, and what a
+chapter like USF-ITE can do to close the gap between the classroom and the profession.
+
+As Vice President, I am committed to transforming USF-ITE into one of the most active
+and visible student organizations in the College of Engineering. That means moving
+beyond passive membership and building a chapter students genuinely want to be part
+of, through consistent programming, stronger industry connections, and a more visible
+presence on campus. I want to grow our membership by making the chapter relevant not
+just to those already committed to transportation engineering, but to any student curious
+about the field. Beyond engagement, I am committed to restoring USF-ITE's competitive
+legacy. Our chapter has a proven track record at the ITE Collegiate Traffic Bowl, having
+won the Florida Section District 10 championship and represented USF at the national
+level. That standard is one we can reach again, and I intend to prioritize structured
+preparation, study sessions, and team building to position USF-ITE to compete seriously
+at both the regional and national levels once more.
+
+I am running for this position because I believe a strong student chapter does more than
+host events. It shapes careers, builds professional identity, and creates a community that
+follows members long after graduation. I am prepared to bring the dedication and follow-through this role demands, and I would be honored to serve the USF-ITE community in
+this capacity.</div>
+        </div>
+      </div>
+
+      <!-- Le Nguyen -->
+      <div class="candidate-card">
+        <div class="card-header">
+          <div class="candidate-avatar">LN</div>
+          <div class="card-header-text">
+            <div class="candidate-name">Le Nguyen</div>
+            <div class="candidate-office">Running for Vice President &nbsp;·&nbsp; <span style="color:var(--muted);font-weight:400;">also: Treasurer</span></div>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="statement-label">Candidate Statement</div>
+          <div class="statement-text">USF ITE 2026 – 2027 Executive Board Elections
+
+Candidate: Le Nguyen
+
+Primary Position: Vice President
+
+Secondary Position: Treasurer
+
+Contact information
+
+Email: lehuuthucnguyen@usf.edu
+
+LinkedIn: www.linkedin.com/in/le-nguyen-089913211
+
+About the candidate
+
+I am Le Nguyen, a junior in Civil Engineering. My academic concentration is in
+Transportation, and my work experience includes research in Brownfields. I will be working on
+the Moving I-4 Forward program as a Highway Intern this summer.
+
+Besides my passion for transportation, I am an active student leader. In my first year at
+USF, I served as the Events Coordinator for the SASE chapter at USF (Society of Asian
+Scientists and Engineers). I was elected as one of the two Co-President for the USF chapter in
+2024 – 2025. My work revolved around defining chapter's goal, expanding connections in the
+industry, and managing events schedules. I created a masterplan including social events,
+fundraisers, volunteering opportunities, as well as technical workshops and networking events.
+The masterplan included internal meetings, a shadowing program, and important submittal
+deadlines.
+
+I am also an excellent team player. This year, I served as a member of the Timber Strong
+team, representive the USF chapter in the annual ASCE Southeast Symposium. This is the
+second year that USF have competed in this category after almost a decade. Reviewing only one
+year worth of document, I have completed structural analysis, accounted for materials recycling,
+and drafted a budget for materials and manual labor costs.
+
+Primary position: Vice President
+
+The primary position I am applying for is Vice President for the ITE chapter at USF. I
+believe that my leadership experience and knowledge in the industry will help guide the chapter
+in future operations. I am efficient in communication, networking, and organizing an expanding
+group of general members and executive board members.
+
+I aim to reduce the workload of the Director of Events and Outreach, as well as having a
+larger, public discussion platform for interested members. My goal for serving USF ITE is to
+gain recognition within the civil engineering students and maintain attendance in annual
+conferences. I hope to complete these goals via sharing more transportation-related resources for
+interest students and organizing industry-specific events or workshops. I hope to maintain
+connections with CUTR and local companies, while expanding the invite to larger firms that
+need new hires.
+
+Secondary Position: Treasurer
+
+My secondary position is Treasurer, as I understand that the chapter needs this position to
+remain active. I have completed the Financial Officer training course and drafted the Annual
+Budgeting Application for the school year of 2025 – 2026 for USF SASE, securing fundings for
+events, project hardware, and merch such as T-shirts, pins, and stickers. I have also worked in
+the Student Government and the Student Business Services (SBS) to secure fundings for an out-of-state conference in 2025.
+
+I hope to remain involved in USF ITE in either position, as I understand that having
+guidance from former board members and being in a group of like-minded students is extremely
+important. My ultimate goal when working in USF ITE, regardless of my role, is to build a safe
+space for young, aspiring engineers to not only develop their technical skills, but also gain a
+clearer understanding of their concentration and potential career paths.</div>
+        </div>
+        <div class="contact-row">
+          <a href="mailto:lehuuthucnguyen@usf.edu" class="contact-chip">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            lehuuthucnguyen@usf.edu
+          </a>
+          <a href="https://www.linkedin.com/in/le-nguyen-089913211" target="_blank" rel="noopener" class="contact-chip">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+            LinkedIn Profile
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- SECRETARY -->
+  <div class="office-section">
+    <div class="office-header">
+      <div class="office-number">03</div>
+      <h2 class="office-title">Secretary</h2>
+      <span class="office-count">1 Candidate</span>
+    </div>
+
+    <div class="candidates-grid">
+
+      <div class="candidate-card">
+        <div class="card-header">
+          <div class="candidate-avatar">SS</div>
+          <div class="card-header-text">
+            <div class="candidate-name">Sravan Kumar Sudula</div>
+            <div class="candidate-office">Running for Secretary</div>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="statement-label">Candidate Statement</div>
+          <div class="statement-text">Hi everyone, my name is Sravan, and I'm currently pursuing my Master's in Civil Engineering with a specialization in Transportation at USF. I'm interested in serving as the Secretary for the USF ITE chapter.
+
+I feel I'm a good fit for this role because I'm responsible, organized, and I take my commitments seriously. Through my coursework and group projects, I've developed strong communication and coordination skills, and I'm comfortable managing tasks like documentation and keeping things on track. I also genuinely enjoy being involved and contributing to a team.
+
+If given the opportunity, I'd like to help keep the chapter well-organized and make communication smoother among members. I also hope to support events and activities that help students connect, learn, and grow professionally. Overall, I just want to be someone the team can rely on and contribute positively to the chapter.</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- TREASURER -->
+  <div class="office-section">
+    <div class="office-header">
+      <div class="office-number">04</div>
+      <h2 class="office-title">Treasurer</h2>
+      <span class="office-count">1 Candidate</span>
+    </div>
+
+    <div class="candidates-grid">
+
+      <div class="candidate-card">
+        <div class="card-header">
+          <div class="candidate-avatar">ZS</div>
+          <div class="card-header-text">
+            <div class="candidate-name">Md. Zidan Shahriar</div>
+            <div class="candidate-office">Running for Treasurer</div>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="statement-label">Candidate Statement</div>
+          <div class="statement-text">Candidate Statement for Treasurer
+USF ITE Student Chapter
+
+Hello everyone,
+
+I am honored to present myself as a candidate for Treasurer of the USF ITE Student Chapter.
+
+I am currently a Master's student in Civil and Environmental Engineering at the University of South Florida, with a deep passion for transportation engineering. Through my graduate research in electric vehicle braking dynamics and traffic flow modeling, I have developed strong analytical and organizational skills — qualities that are just as essential to managing a chapter's finances as they are to conducting rigorous research.
+
+My internship at Stantec further reinforced these skills, exposing me to a professional environment where attention to detail, resource management, and accountability are critical to delivering quality results. I bring that same mindset to everything I do as a student and researcher.
+
+As Treasurer, I am committed to ensuring our chapter operates with financial transparency, responsibility, and purpose. Specifically, I will focus on:
+
+1. Maintaining accurate, transparent financial records that are accessible to all chapter members
+2. Identifying and pursuing funding opportunities, including grants, sponsorships, and university resources, to support chapter events and activities
+3. Ensuring chapter funds are allocated strategically to maximize value for every member
+
+I believe a well-managed chapter is the foundation for everything else we hope to achieve — from networking events to professional development opportunities. I am dedicated to providing the financial stewardship our chapter deserves, and I would be honored to serve in this role.
+
+I sincerely appreciate your vote and your trust.
+
+Thank you.
+
+Md. Zidan Shahriar, E.I.
+
+M.S. Student, Civil & Environmental Engineering (Transportation)
+
+University of South Florida</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- CAREER CONNECTIONS COORDINATOR -->
+  <div class="office-section">
+    <div class="office-header">
+      <div class="office-number">05</div>
+      <h2 class="office-title">Career Connections Coordinator</h2>
+      <span class="office-count">1 Candidate</span>
+    </div>
+
+    <div class="candidates-grid">
+
+      <div class="candidate-card">
+        <div class="card-header">
+          <div class="candidate-avatar">TN</div>
+          <div class="card-header-text">
+            <div class="candidate-name">Thi Nguyen</div>
+            <div class="candidate-office">Candidate for Career Connections Coordinator</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- VOTING SECTION -->
+  <div class="voting-section" id="vote">
+    <div class="voting-inner">
+      <p class="voting-eyebrow">Cast Your Vote</p>
+      <h2 class="voting-title">Ready to Make Your Voice Heard?</h2>
+      <p class="voting-meta">Voting will take place through BullsConnect.</p>
+      <div class="voting-window">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        Voting Window: April 3 &nbsp;·&nbsp; 12:45 PM – 6:00 PM
+      </div>
+      <div class="voting-actions">
+        <a href="https://bullsconnect.usf.edu" target="_blank" rel="noopener" class="btn-primary" style="font-size:15px;padding:15px 34px;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+          Go to Ballot on BullsConnect
+        </a>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<!-- ─── FOOTER ─────────────────────────────────────────────────── -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-logo">USF Institute of Transportation Engineers</div>
+    <div class="footer-sub">
+      University of South Florida Student Chapter<br/>
+      Tampa, Florida
+    </div>
+    <div class="footer-divider"></div>
+    <div class="footer-bottom">Elections 2026–2027 &nbsp;·&nbsp; Candidate Statements Page</div>
+  </div>
+</footer>
+
+</body>
+</html>
