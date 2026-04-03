@@ -721,24 +721,22 @@ function renderResults(data) {
   });
 }
 
+// ─── FINAL RESULTS (election closed) ─────────────────────────────────
+const FINAL_RESULTS = {
+  votes: {
+    pres_zidan: 12, pres_jeremy: 24,
+    vp_marvin: 29, vp_kwabena: 3, vp_le: 11,
+    sec_sravan: 29,
+    tres_zidan: 18, tres_le: 15,
+    ccc_thi: 34
+  },
+  published: '2026-04-03T18:00:00'
+};
+
 // ─── INIT ─────────────────────────────────────────────────────────────
 (function init() {
-  let data = loadData();
-  // Pre-load with official results if no local data exists
-  if (!data) {
-    data = {
-      votes: {
-        pres_zidan: 12, pres_jeremy: 24,
-        vp_marvin: 29, vp_kwabena: 3, vp_le: 11,
-        sec_sravan: 29,
-        tres_zidan: 18, tres_le: 15,
-        ccc_thi: 34
-      },
-      published: '2026-04-03T18:00:00'
-    };
-    saveData(data);
-  }
-  renderResults(data);
+  saveData(FINAL_RESULTS);
+  renderResults(FINAL_RESULTS);
 })();
 </script>
 </body>
