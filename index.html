@@ -36,6 +36,7 @@ body {
   min-height: 100vh;
 }
 a { color: inherit; text-decoration: none; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
 
 /* ─── NAV ────────────────────────────────────────────────────── */
 nav {
@@ -652,7 +653,7 @@ footer {
 <!-- ─── INTRO STRIP ────────────────────────────────────────────── -->
 <div class="intro-strip">
   <div class="intro-inner">
-    <div class="intro-icon">📋</div>
+    <div class="intro-icon" aria-hidden="true">📋</div>
     <p class="intro-text">
       To help members learn more about the nominees before voting, candidate statements and Jeremy Fullwood's optional video introduction are provided below. <strong>Each statement is displayed exactly as submitted.</strong>
     </p>
