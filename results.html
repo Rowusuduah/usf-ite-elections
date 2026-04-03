@@ -590,7 +590,6 @@ function clearResults() {
   }));
   document.getElementById('pending-screen').style.display = 'block';
   document.getElementById('results-content').style.display = 'none';
-  document.getElementById('stats-bar').style.display = 'none';
   document.getElementById('result-timestamp').textContent = '';
   closeAdmin();
 }
@@ -624,9 +623,7 @@ function renderResults(data) {
     });
   }
 
-  // Stats bar
-  document.getElementById('stats-bar').style.display = 'block';
-  document.getElementById('stat-total').textContent = totalBallots || '–';
+  // Total ballots (kept for reference)
 
   // Timestamp
   if (data.published) {
